@@ -25,7 +25,7 @@ const Home = () => {
             erosh vero, tenetar voluptatem nulla aut esperantor dolores ut.
           </p>
           {/* button */}
-          <div className="flex justify-center xl:h">
+          <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
           </div>
         </div>
