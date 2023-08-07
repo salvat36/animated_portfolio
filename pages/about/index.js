@@ -107,7 +107,7 @@ const About = () => {
             className="h2"
           >
             {" "}
-            Captivating <span className="text-accent">Header</span> Entered Here
+            Captivating <span className="text-accent">Header</span> Entered Here With some extra text
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -119,7 +119,7 @@ const About = () => {
             {" "}
             Elevator Pitch regarding the when/why/how we ended up here and what
             I can do to skyrocket your company if you were to be smart enough to
-            hire me!{" "}
+            hire me! add some more text to see if this fixes alignment{" "}
           </motion.p>
           {/* counters */}
           <motion.div
