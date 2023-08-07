@@ -20,6 +20,7 @@ const Header = () => {
               priority={true}
             />
           </Link>
+          {/* Social Link Rendering */}
           <Socials/>
         </div>
       </div>
