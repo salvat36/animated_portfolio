@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from "react-icons/fa";
-import { SiNextdotjs, SiFramer, SiAdobephotoshop } from "react-icons/si";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaPython, FaFlask } from "react-icons/fa";
+import { SiNextdotjs, SiFramer, SiAdobephotoshop, SiPostgresql } from "react-icons/si";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
@@ -15,19 +15,21 @@ export const aboutData = [
     title: "skills",
     info: [
       {
-        title: "Web Development",
+        title: "Front End",
         icons: [
           <FaHtml5 />,
           <FaCss3 />,
           <FaJs />,
           <FaReact />,
+          <FaFigma />,
+          <FaPython />,
           <SiNextdotjs />,
           <SiFramer />,
         ],
       },
       {
-        title: "UI/UX Design",
-        icons: [<FaFigma />, <SiAdobephotoshop />],
+        title: "Back End",
+        icons: [<FaPython />, <SiPostgresql />, <FaFlask /> ],
       },
     ],
   },
