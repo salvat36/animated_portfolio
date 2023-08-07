@@ -107,7 +107,8 @@ const About = () => {
             className="h2"
           >
             {" "}
-            Captivating <span className="text-accent">Header</span> Entered Here With some extra text
+            Captivating <span className="text-accent">Header</span> Entered Here
+            With some extra text
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
