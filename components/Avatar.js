@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Avatar = () => {
   return (
-  <div className='xl:flex xl:max-w-none'>
+  <div className='hidden xl:flex xl:max-w-none'>
     {/* double check hidden property here^^ */}
     <Image 
     src={'/avatar.png'}
