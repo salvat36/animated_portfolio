@@ -95,8 +95,14 @@ const About = () => {
         <Avatar />
       </motion.div>
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
-        <div>text</div>
-        <div>
+        {/* Txt */}
+        <div className="flex-1 flex flex-col justify-center">
+          <h2> Captivating <span className="text-accent">Header</span> Entered Here</h2>
+          <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"> Elevator Pitch regarding the when/why/how we ended up here and what I can do to skyrocket your company if you were to be smart enough to  hire me! </p>
+
+        </div>
+        {/* info */}
+        <div className="flex flex-col w-full xl:max-w-[48%] h-[480px] ">
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item, itemIndex) => {
               return (
@@ -113,13 +119,20 @@ const About = () => {
               );
             })}
           </div>
-          <div>
+          <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
             {aboutData[index].info.map((item, itemIndex) => {
               return (
-                <div key={itemIndex}>
+                <div key={itemIndex} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60 ">
                   {/* Titles */}
-                  <div>{item.title}</div>
-                  <div />
+                  <div className="font-light mb-2 md:mb-0 ">{item.title}</div>
+                  <div className="hidden md:flex ">-</div>
+                  <div>{item.stage}</div>
+                  <div className="flex gap-x-4 ">
+                  {/* Icons */}
+                  {item.icons?.map((icon, itemIndex) => {
+                    return <div className='text-2xl text-white' key={itemIndex}>{icon}</div>
+                  })}
+                  </div>
                 </div>
               );
             })}
