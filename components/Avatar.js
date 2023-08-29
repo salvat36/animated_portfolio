@@ -5,7 +5,7 @@ const Avatar = () => {
   <div className='hidden xl:flex xl:max-w-none'>
     {/* double check hidden property here^^ */}
     <Image 
-    src={'/avatar.png'}
+    src={'/avatar1.png'}
     width={737}
     height={678}
     alt=""
