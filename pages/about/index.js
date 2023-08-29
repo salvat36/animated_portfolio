@@ -1,6 +1,19 @@
 import React, { useState } from "react";
-import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaPython, FaFlask } from "react-icons/fa";
-import { SiNextdotjs, SiFramer, SiAdobephotoshop, SiPostgresql } from "react-icons/si";
+import {
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaReact,
+  FaFigma,
+  FaPython,
+  FaFlask,
+} from "react-icons/fa";
+import {
+  SiNextdotjs,
+  SiFramer,
+  SiAdobephotoshop,
+  SiPostgresql,
+} from "react-icons/si";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
@@ -34,19 +47,6 @@ export const aboutData = [
     ],
   },
   {
-    title: "awards",
-    info: [
-      {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
-      },
-    ],
-  },
-  {
     title: "experience",
     info: [
       {
@@ -75,8 +75,7 @@ export const aboutData = [
         stage: "2023",
       },
       {
-        title:
-          "BS in Business Economics - State University of New York at Oneonta",
+        title: "BS in Business Economics - Oneonta State",
         stage: "2009",
       },
     ],
@@ -110,8 +109,8 @@ const About = () => {
             className="h2"
           >
             {" "}
-            Captivating <span className="text-accent">Header</span> Entered Here
-            With some extra text
+            <span className="text-accent">Software Engineer</span>, Tech Sales
+            and Business<span className="text-accent">.</span>
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -121,7 +120,10 @@ const About = () => {
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
             {" "}
-            Software Engineer with a strong background in Sales and Business.  Excited to help implement AI into the everyday worklife!{" "}
+            I am a Software Engineer with a unique blend of technical expertise
+            and a background in Sales and Business. I am passionate about
+            integrating AI into everyday work life and am excited to contribute
+            my skills to make this vision a reality.{" "}
           </motion.p>
           {/* counters */}
           <motion.div
@@ -141,7 +143,7 @@ const About = () => {
                   <CountUp start={0} end={10} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Years of experience
+                  Years of experience tranforming lives through tech
                 </div>
               </div>
             </div>
