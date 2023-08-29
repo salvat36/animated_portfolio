@@ -29,7 +29,7 @@ export const aboutData = [
       },
       {
         title: "Back End",
-        icons: [<FaPython />, <SiPostgresql />, <FaFlask /> ],
+        icons: [<FaPython />, <SiPostgresql />, <FaFlask />],
       },
     ],
   },
@@ -50,16 +50,20 @@ export const aboutData = [
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: " Independent Life/Health Agent - Family First Life",
+        stage: "2022 – Current ",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
+        title: "Licensed Lending Officer - loanDepot",
+        stage: "2021 – 2022",
       },
       {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "Technical Sales Support - Office-1 Technologies",
+        stage: " 2018 – 2020",
+      },
+      {
+        title: "Technical Sales Support - Xerox",
+        stage: "2016 – 2018",
       },
     ],
   },
@@ -67,16 +71,13 @@ export const aboutData = [
     title: "credentials",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Software Engineering - FlatIron University, NY New York",
+        stage: "2023",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
+        title:
+          "BS in Business Economics - State University of New York at Oneonta",
         stage: "2009",
-      },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
       },
     ],
   },
@@ -120,9 +121,7 @@ const About = () => {
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
             {" "}
-            Elevator Pitch regarding the when/why/how we ended up here and what
-            I can do to skyrocket your company if you were to be smart enough to
-            hire me! add some more text to see if this fixes alignment{" "}
+            Software Engineer with a strong background in Sales and Business.  Excited to help implement AI into the everyday worklife!{" "}
           </motion.p>
           {/* counters */}
           <motion.div
