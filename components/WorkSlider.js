@@ -4,40 +4,20 @@ export const workSlider = {
     {
       images: [
         {
-          title: "title",
+          title: "EndlessEasel",
           path: "/thumb1.jpg",
         },
         {
-          title: "title",
+          title: "Python Adventure",
           path: "/thumb2.jpg",
         },
         {
-          title: "title",
+          title: "Guitar Trader",
           path: "/thumb3.jpg",
         },
         {
-          title: "title",
+          title: "Python Pages",
           path: "/thumb4.jpg",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "title",
-          path: "/thumb4.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb1.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb2.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
         },
       ],
     },
@@ -82,9 +62,9 @@ const WorkSlider = () => {
                       <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
                         <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2rem]">
                           {/* title - 1 */}
-                          <div className="delay-100">TITLE</div>
+                          <div className="delay-100">{image.title}</div>
                           {/* title - 2 */}
-                          <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">HERE</div>
+                          <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150"></div>
                           {/* icon */}
                           <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200 "><BsArrowRight/></div>
                         </div>
