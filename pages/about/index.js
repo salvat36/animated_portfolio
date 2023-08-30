@@ -157,7 +157,7 @@ const About = () => {
           exit="hidden"
           className="flex flex-col w-full xl:max-w-[48%] h-[480px] "
         >
-          <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
+          <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4 mt-14">
             {aboutData.map((item, itemIndex) => {
               return (
                 <div
@@ -178,7 +178,7 @@ const About = () => {
               return (
                 <div
                   key={itemIndex}
-                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60 "
+                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
                 >
                   {/* Titles */}
                   <div className="font-light mb-2 md:mb-0 ">{item.title}</div>
