@@ -52,6 +52,6 @@
 
 .scrollable-page {
 
-  @apply overflow-y-auto;
+  @apply overflow-y-scroll;
 
 }

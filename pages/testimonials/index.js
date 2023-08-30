@@ -17,7 +17,7 @@ const CV = () => {
         </p>
       </div>
       <div className="min-h-screen flex flex-col justify-start items-center">
-        <div className="flex-grow w-full max-w-screen-md p-4 mt-4 overflow-x-hidden overflow-y page scrollable-page scrollbar-thin scrollbar-thumb-lime-400">
+        <div className="flex-grow w-full max-w-screen-md p-4 mt-4 overflow-x-hidden overflow-y page scrollable-page scrollbar-thin scrollbar-thumb-accent">
           <div className="mt-6">
             <h2 className="text-2xl font-semibold">FULL-STACK ENGINEER</h2>
             <p className="mt-2">
