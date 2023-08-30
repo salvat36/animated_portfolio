@@ -1,7 +1,7 @@
 const CV = () => {
   return (
     <div className="font-sora bg-transparent mt-20 min-h-screen flex flex-col">
-      <div className="bg-gray-800 text-white py-4 text-center">
+      <div className="bg-primary/0 text-white py-4 text-center">
         <p className="text-sm mt-4">
           Salvat36@gmail.com | (845) 754-6125 |{" "}
           <a href="https://github.com/yourgithub" className="text-blue-400">
@@ -17,7 +17,7 @@ const CV = () => {
         </p>
       </div>
       <div className="min-h-screen flex flex-col justify-start items-center">
-        <div className="flex-grow w-full max-w-screen-md p-4 mt-4 overflow-x-hidden overflow-y-scroll">
+        <div className="flex-grow w-full max-w-screen-md p-4 mt-4 overflow-x-hidden overflow-y">
           <div className="mt-6">
             <h2 className="text-2xl font-semibold">FULL-STACK ENGINEER</h2>
             <p className="mt-2">
