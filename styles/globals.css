@@ -49,3 +49,9 @@
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
 }
+
+.scrollable-page {
+
+  @apply overflow-y-auto;
+
+}
