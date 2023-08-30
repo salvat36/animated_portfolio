@@ -6,18 +6,22 @@ export const workSlider = {
         {
           title: "EndlessEasel",
           path: "/thumb1.jpg",
+          url: "https://github.com/salvat36/endlesseasel-deployment",
         },
         {
           title: "Python Adventure",
           path: "/thumb2.jpg",
+          url: "https://github.com/montaguehb/Python-CLI-Adventure",
         },
         {
           title: "Guitar Trader",
           path: "/thumb3.jpg",
+          url: "https://github.com/riverferguson/phase-2-project",
         },
         {
           title: "Python Pages",
           path: "/thumb4.jpg",
+          url: "https://github.com/salvat36/python_pages",
         },
       ],
     },
