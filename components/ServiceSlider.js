@@ -82,10 +82,24 @@ const ServiceSlider = () => {
               <div className="mb-8">
                 <div className="mb-2 text-lg">{item.title}</div>
                 <div className="rounded-lg">
-                  <Image className="rounded-lg" src={item.image} width={500} height={250} alt="" />
-              <div className="text-3xl">
-                <RxArrowTopRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300" />
-              </div>
+                  <Image
+                    className="rounded-lg"
+                    src={item.image}
+                    width={500}
+                    height={250}
+                    alt=""
+                  />
+                  <div className="rounded-lg absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
+                  {/* title */}
+                  <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
+                    <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2rem]">
+                      {/* title - 1 */}
+                      <div className="delay-100">{item.title}</div>
+                    </div>
+                  </div>
+                  <div className="text-3xl">
+                    <RxArrowTopRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300" />
+                  </div>
                 </div>
               </div>
               {/* arrow */}
