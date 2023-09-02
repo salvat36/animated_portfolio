@@ -23,30 +23,35 @@ const serviceData = [
     icon: <FaBlog />,
     title: "Branding",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    date: "August 28th, 2023",
     image: "/blog1.png",
   },
   {
     icon: <FaBlog />,
     title: "Design",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    date: "August 28th, 2023",
     image: "/blog2.png",
   },
   {
     icon: <FaBlog />,
     title: "Development",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    date: "August 28th, 2023",
     image: "/blog3.png",
   },
   {
     icon: <FaBlog />,
     title: "Copywriting",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    date: "August 28th, 2023",
     image: "/blog4.png",
   },
   {
     icon: <FaBlog />,
     title: "SEO",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    date: "August 28th, 2023",
     image: "",
   },
 ];
@@ -61,7 +66,7 @@ const ServiceSlider = () => {
         },
 
         640: {
-          slidesPerView: 2,
+          slidesPerView: 2.5,
           spaceBetween: 15,
         },
       }}
@@ -70,7 +75,7 @@ const ServiceSlider = () => {
         clickable: true,
       }}
       modules={[FreeMode, Pagination]}
-      className="h-[240px] sm:h-[340px]"
+      className="h-[340px] sm:h-[440px]"
     >
       {serviceData.map((item, index) => {
         return (
@@ -94,11 +99,8 @@ const ServiceSlider = () => {
                   <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
                     <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2rem]">
                       {/* title - 1 */}
-                      <div className="delay-100">{item.title}</div>
+                      <div className="delay-100">Published:{item.date}</div>
                     </div>
-                  </div>
-                  <div className="text-3xl">
-                    <RxArrowTopRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300" />
                   </div>
                 </div>
               </div>
