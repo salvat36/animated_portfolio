@@ -13,31 +13,40 @@ import {
   RxArrowTopRight,
 } from "react-icons/rx";
 
+import {
+  FaBlog
+} from "react-icons/fa"
+
 const serviceData = [
   {
-    icon: <RxCrop />,
+    icon: <FaBlog />,
     title: "Branding",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "",
   },
   {
-    icon: <RxPencil2 />,
+    icon: <FaBlog />,
     title: "Design",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "",
   },
   {
-    icon: <RxDesktop />,
+    icon: <FaBlog />,
     title: "Development",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "",
   },
   {
-    icon: <RxReader />,
+    icon: <FaBlog />,
     title: "Copywriting",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "",
   },
   {
-    icon: <RxRocket />,
+    icon: <FaBlog />,
     title: "SEO",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "",
   },
 ];
 
