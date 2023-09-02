@@ -3,6 +3,7 @@ import { FreeMode, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
+import Image from "next/image";
 
 import {
   RxCrop,
@@ -22,25 +23,25 @@ const serviceData = [
     icon: <FaBlog />,
     title: "Branding",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "",
+    image: "/blog1.png",
   },
   {
     icon: <FaBlog />,
     title: "Design",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "",
+    image: "/blog2.png",
   },
   {
     icon: <FaBlog />,
     title: "Development",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "",
+    image: "/blog3.png",
   },
   {
     icon: <FaBlog />,
     title: "Copywriting",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "",
+    image: "/blog4.png",
   },
   {
     icon: <FaBlog />,
@@ -60,7 +61,7 @@ const ServiceSlider = () => {
         },
 
         640: {
-          slidesPerView: 3,
+          slidesPerView: 2,
           spaceBetween: 15,
         },
       }}
@@ -78,17 +79,19 @@ const ServiceSlider = () => {
               {/* icons */}
               <div className="text-4xl text-accent mb-4 ">{item.icon}</div>
               {/* title & description */}
-              <div className="mb-8"> 
+              <div className="mb-8">
                 <div className="mb-2 text-lg">{item.title}</div>
-                <p className="max-w-[350px] leading-normal">{item.description}</p>
+                <div className="rounded-lg">
+                  <Image className="rounded-lg" src={item.image} width={500} height={250} alt="" />
+              <div className="text-3xl">
+                <RxArrowTopRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300" />
+              </div>
+                </div>
               </div>
               {/* arrow */}
-              <div className="text-3xl">
-                <RxArrowTopRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300"/>
-              </div>
             </div>
           </SwiperSlide>
-        )
+        );
       })}
     </Swiper>
   );

@@ -21,7 +21,7 @@ const Services = () => {
               exit="hidden"
               className="h2 xl:mt-8"
             >
-              My Technologies <span className="text-accent">.</span>
+              The Blog Zone <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -30,11 +30,6 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Quis dolor dolore consectetur labore tempor occaecat aute non enim
-              mollit. Cupidatat enim ipsum esse laboris laborum est consectetur
-              tempor do ut voluptate. Nulla dolore ipsum consectetur ea
-              exercitation laborum laboris. Ea consequat dolore amet sunt nisi
-              velit.
             </motion.p>
           </div>
           {/* slider */}
