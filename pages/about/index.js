@@ -23,6 +23,7 @@ import Circles from "../../components/Circles";
 
 import CountUp from "react-countup";
 
+
 export const aboutData = [
   {
     title: "skills",
@@ -30,18 +31,27 @@ export const aboutData = [
       {
         title: "Front End",
         icons: [
+          // eslint-disable-next-line react/jsx-key
           <FaHtml5 />,
+          // eslint-disable-next-line react/jsx-key
           <FaCss3 />,
+          // eslint-disable-next-line react/jsx-key
           <FaJs />,
+          // eslint-disable-next-line react/jsx-key
           <FaReact />,
+          // eslint-disable-next-line react/jsx-key
           <FaFigma />,
+          // eslint-disable-next-line react/jsx-key
           <FaPython />,
+          // eslint-disable-next-line react/jsx-key
           <SiNextdotjs />,
+          // eslint-disable-next-line react/jsx-key
           <SiFramer />,
         ],
       },
       {
         title: "Back End",
+        // eslint-disable-next-line react/jsx-key
         icons: [<FaPython />, <SiPostgresql />, <FaFlask />],
       },
     ],
