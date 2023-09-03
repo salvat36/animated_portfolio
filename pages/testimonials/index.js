@@ -50,7 +50,7 @@ const CV = () => {
                 dynamic back-end powered by Flask, SQLAlchemy, and Postgres.
               </p>
               <p className="mt-2">
-                Seamlessly integrated OpenAI's API through HuggingFace's
+                Seamlessly integrated OpenAI&apos;s API through HuggingFace&apos;s
                 transformers library, enabling users to generate AI artwork with
                 flair.
               </p>
