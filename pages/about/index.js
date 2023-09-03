@@ -131,9 +131,7 @@ const About = () => {
           >
             {" "}
             I am a Software Engineer with a unique blend of technical expertise
-            and a background in Sales and Business. I am passionate about
-            integrating AI into everyday work life and am excited to contribute
-            my skills to make this vision a reality.{" "}
+            and a background in Sales and Business.{" "}
           </motion.p>
           {/* counters */}
           <motion.div
