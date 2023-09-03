@@ -30,11 +30,8 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Quis dolor dolore consectetur labore tempor occaecat aute non enim
-              mollit. Cupidatat enim ipsum esse laboris laborum est consectetur
-              tempor do ut voluptate. Nulla dolore ipsum consectetur ea
-              exercitation laborum laboris. Ea consequat dolore amet sunt nisi
-              velit.
+              Here you can find some of my many projects I have already created since diving into this profession full-time.  Stay tuned as there will be an abundant amount of projects to follow.  I was bitten by the coding bug and it bit hard...
+              
             </motion.p>
           </div>
           {/* slider */}
