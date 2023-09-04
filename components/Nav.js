@@ -12,11 +12,11 @@ import { useRouter } from "next/router";
 export const links = [
   { name: "home", path: "/", icon: <HiHome /> },
   { name: "about", path: "/about", icon: <HiUser /> },
-  { name: "services", path: "/services", icon: <HiRectangleGroup /> },
+  { name: "blog", path: "/blog", icon: <HiRectangleGroup /> },
   { name: "work", path: "/work", icon: <HiViewColumns /> },
   {
-    name: "testimonials",
-    path: "/testimonials",
+    name: "resume",
+    path: "/resume",
     icon: <HiChatBubbleBottomCenterText />,
   },
   {
