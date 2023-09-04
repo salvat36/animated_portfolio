@@ -21,29 +21,31 @@ import {
 const serviceData = [
   {
     icon: <FaBlog />,
+    title: "AI Imagery Uncovered",
+    date: "Sept 4th, 2023",
+    image: "/blog5.png",
+  },
+  {
+    icon: <FaBlog />,
     title: "AI In The Workplace",
-    devlogo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     date: "August 28th, 2023",
     image: "/blog1.png",
   },
   {
     icon: <FaBlog />,
     title: "Painting By Letters",
-    devlogo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     date: "July 21st, 2023",
     image: "/blog2.png",
   },
   {
     icon: <FaBlog />,
     title: "Powerful Prompting",
-    devlogo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     date: "July 3rd, 2023",
     image: "/blog3.png",
   },
   {
     icon: <FaBlog />,
     title: "CLI in Style",
-    devIcon: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     date: "June 9th, 2023",
     image: "/blog4.png",
   },
