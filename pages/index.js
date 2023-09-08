@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 //Local Imports
 import { fadeIn } from "../variants";
 import ParticlesContainer from "../components/ParticlesContainer";
-import ProjectsBtn from "../components/ProjectsBtn";
 import Avatar from "../components/Avatar";
 
 const Home = () => {
