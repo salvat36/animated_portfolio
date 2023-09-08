@@ -37,21 +37,9 @@ const Home = () => {
             Web Developer <br />
             Software Developer
             <br />
-            Machine Learning enthusiast <br />
-            Learner
+            Machine Learning Enthusiast <br />
+            Life Long Learner
           </motion.p>
-          {/* button -- need to correct for mobile */}
-          <div className="justify-center hidden">
-            <ProjectsBtn />
-          </div>
-          <motion.div
-            variants={fadeIn("down", 0.4)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
-          >
-            <ProjectsBtn />
-          </motion.div>
         </div>
       </div>
       {/* image */}
