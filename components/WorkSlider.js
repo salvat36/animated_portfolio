@@ -5,22 +5,22 @@ export const workSlider = {
       images: [
         {
           title: "EndlessEasel",
-          path: "/thumb1.jpg",
+          path: "/cut.jpg",
           url: "https://github.com/salvat36/endlesseasel-deployment",
         },
         {
           title: "Python Adventure",
-          path: "/thumb2.jpg",
+          path: "/adventure.jpg",
           url: "https://github.com/montaguehb/Python-CLI-Adventure",
         },
         {
           title: "Guitar Trader",
-          path: "/thumb3.jpg",
+          path: "/guitar1.jpg",
           url: "https://github.com/riverferguson/phase-2-project",
         },
         {
           title: "Python Pages",
-          path: "/thumb4.jpg",
+          path: "/books.jpg",
           url: "https://github.com/salvat36/python_pages",
         },
       ],
@@ -55,9 +55,7 @@ const WorkSlider = () => {
               {slide.images.map((image, index) => {
                 return (
                   <Link key={index} href={image.url}>
-                    <div
-                      className="relative rounded-lg overflow-hidden flex items-center justify-center group"
-                    >
+                    <div className="relative rounded-lg overflow-hidden flex items-center justify-center group">
                       <div className="flex items-center justify-center relative overflow-hidden group">
                         {/* image */}
                         <Image
