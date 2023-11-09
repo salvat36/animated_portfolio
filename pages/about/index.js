@@ -11,7 +11,6 @@ import {
 import {
   SiNextdotjs,
   SiFramer,
-  SiAdobephotoshop,
   SiPostgresql,
 } from "react-icons/si";
 
