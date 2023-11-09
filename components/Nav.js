@@ -14,11 +14,11 @@ export const links = [
   { name: "about", path: "/about", icon: <HiUser /> },
   { name: "blog", path: "/blog", icon: <HiRectangleGroup /> },
   { name: "work", path: "/work", icon: <HiViewColumns /> },
-  {
-    name: "resume",
-    path: "/resume",
-    icon: <HiChatBubbleBottomCenterText />,
-  },
+  // {
+  //   name: "resume",
+  //   path: "/resume",
+  //   icon: <HiChatBubbleBottomCenterText />,
+  // },
   {
     name: "contact",
     path: "/contact",

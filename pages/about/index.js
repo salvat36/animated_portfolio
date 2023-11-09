@@ -68,11 +68,11 @@ export const aboutData = [
         stage: "2021 – 2022",
       },
       {
-        title: "Technical Sales Support - Office-1 Technologies",
+        title: "Technical Sales Specialist - Office-1 Technologies",
         stage: " 2018 – 2020",
       },
       {
-        title: "Technical Sales Support - Xerox",
+        title: "Technical Sales Specialist - Xerox",
         stage: "2016 – 2018",
       },
     ],
@@ -85,7 +85,7 @@ export const aboutData = [
         stage: "2023",
       },
       {
-        title: "BS in Business Economics - Oneonta State",
+        title: "BS Business Economics - Oneonta State",
         stage: "2009",
       },
     ],
