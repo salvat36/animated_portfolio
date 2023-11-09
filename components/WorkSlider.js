@@ -4,24 +4,28 @@ export const workSlider = {
     {
       images: [
         {
-          title: "EndlessEasel",
+          title: "Endless Easel",
           path: "/cut.jpg",
           url: "https://github.com/salvat36/endlesseasel-deployment",
+          desc: "AI Art Generator",
         },
         {
           title: "Python Adventure",
           path: "/adventure.jpg",
           url: "https://github.com/montaguehb/Python-CLI-Adventure",
+          desc: "CLI Version Control Game",
         },
         {
           title: "Guitar Trader",
           path: "/guitar1.jpg",
           url: "https://github.com/riverferguson/phase-2-project",
+          desc: "E-commerce React-App",
         },
         {
           title: "Python Pages",
           path: "/books.jpg",
           url: "https://github.com/salvat36/python_pages",
+          desc: "Full-Stack React/Flask",
         },
       ],
     },
@@ -55,6 +59,7 @@ const WorkSlider = () => {
               {slide.images.map((image, index) => {
                 return (
                   <Link key={index} href={image.url}>
+                    {image.title}
                     <div className="relative rounded-lg overflow-hidden flex items-center justify-center group">
                       <div className="flex items-center justify-center relative overflow-hidden group">
                         {/* image */}
@@ -68,13 +73,15 @@ const WorkSlider = () => {
                         <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
                         {/* title */}
                         <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
-                          <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2rem]">
+                          <div className="flex-col items-center gap-x-2 text-[13px] tracking-[0.2rem]">
                             {/* title - 1 */}
                             <div className="delay-100">{image.title}</div>
                             {/* title - 2 */}
-                            <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150"></div>
+                            <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
+                              {image.desc}
+                            </div>
                             {/* icon */}
-                            <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200 ">
+                            <div className="text-xl translate-y-[500%] items-center group-hover:translate-y-0 transition-all duration-300 delay-200 ">
                               <BsArrowRight />
                             </div>
                           </div>
